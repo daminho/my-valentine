@@ -1,0 +1,41 @@
+body {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 35px;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: white;
+
+}
+
+
+button {
+  height: 40px;
+  width: 80px;
+  border: 2px solid white;
+  background-color: #eb91a5;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 4px 8px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: transparent;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 2px 4px 0 rgba(0,0,0,0.19);
+}
+
+.message {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 35px;
+  color: white;
+}
